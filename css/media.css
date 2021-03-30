@@ -1,0 +1,185 @@
+@media (max-width:1100px) {
+  .menu__list {
+    display: none;
+  }
+  .heaeder__nav-menu {
+    order: 1;
+  }
+  .burger__btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+  }
+  .btn__line {
+    width: 24px;
+    height: 2px;
+    background: #000;
+    display: block;
+    margin-bottom: 2px;
+  }
+  .burger__btn::before, .burger__btn::after {
+    content: "";
+    display: block;
+    margin-bottom: 2px;
+    width: 24px;
+    height: 2px;
+    background: #000;
+  }
+  .burger__btn::after {
+    margin-bottom: 0px;
+  }
+  .burger__list {
+    display: block;
+    align-items: center;
+  }
+}
+
+@media (max-width:900px) {
+  .barbers__items {
+    flex-wrap: wrap;
+  }
+  .barbers__item-descr+.barbers__item-descr {
+    margin-top: 85px;
+  }
+}
+
+@media (max-width:510px) {
+  .price__item-overlay {
+    width: 350px;
+  }
+}
+
+@media (max-width:780px){
+  .time__work {
+    padding: 30px;
+    font-size: 17px;
+}
+}
+
+@media (max-width:600px) {
+  .time__item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .time__work {
+    flex-wrap: wrap;
+    display: block;
+    padding-top: 25px;
+    padding: 100px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width:480px) {
+  .time__item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .time__work {
+    flex-wrap: wrap;
+    display: block;
+    padding-top: 25px;
+    padding: 100px;
+  }
+  .contacts__items {
+    padding: 0px 0 34px;
+    font-size: 17px;
+  }
+  .price__item-tag {
+    font-size: 16px;
+  }
+  .price__item-overlay {
+    width: 400px;
+  }
+  .footer__banner img {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width:380px) {
+  .time__work {
+    flex-wrap: wrap;
+    display: block;
+    padding-top: 25px;
+  }
+  .time__item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacts__items {
+    flex-wrap: wrap;
+  }
+  .contacts__item-adres {
+    margin-bottom: 20px;
+  }
+  .galeria__item-img img {
+    width: 290px;
+  }
+  .price__item-tag {
+    padding: 32px 20px;
+    font-size: 15px;
+  }
+  .price__item-links .button__links {
+    display: flex;
+    flex-wrap: wrap;
+    background: #FF5722;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 10px 10px;
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+  .barbers__item-descr__img img {
+    width: 340px;
+  }
+  .barbers__item-descr__icons {
+    width: 240px;
+  }
+  .barbers__item-descr__icons .title {
+    font-size: 17px;
+  }
+  .all__item-social img {
+    width: 27px;
+  }
+  .footer__items h2 {
+    font-size: 20px;
+  }
+  .footer__items li {
+    font-size: 15px;
+  }
+  .footer__banner img {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width:330px) {
+  .time__item {
+    font-size: 16px;
+  }
+  .time__work {
+    padding: 50px;
+  }
+  .price__item-tag {
+    padding: 32px 15px;
+    font-size: 13px;
+  }
+  .price__item-links .button__links {
+    display: flex;
+    flex-wrap: wrap;
+    background: #FF5722;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 9px 6px;
+    padding: 6px 6px;
+    font-size: 11px;
+  }
+  .price__item-overlay {
+    width: 290px;
+  }
+  .barbers__item-descr__img img {
+    width: 280px;
+  }
+}
